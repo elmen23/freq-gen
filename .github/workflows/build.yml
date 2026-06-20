@@ -26,6 +26,7 @@ jobs:
         run: |
           pip install esptool
           python -m esptool merge-bin \
+            --chip esp32 \
             -o freq-gen-merged.bin \
             --flash-mode qio \
             --flash-size 4MB \

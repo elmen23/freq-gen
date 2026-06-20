@@ -14,7 +14,7 @@
 #define OLED_SCL          22
 #define SCREEN_WIDTH      128
 #define SCREEN_HEIGHT     64
-#define OLED_ADDR         0x3C
+#define OLED_ADDR         0x3D
 
 #define FREQ_MIN          10000UL
 #define FREQ_MAX          300000UL
